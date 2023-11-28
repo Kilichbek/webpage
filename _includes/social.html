@@ -91,6 +91,7 @@
             {%- if site.discord_id -%}
             <a href="https://discord.com/users/{{ site.discord_id }}" title="Discord"><i class="fab fa-discord"></i></a>
             {% endif %}
-            {%- if site.rss_icon -%}
-            <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
-            {% endif %}
+
+
+            <a href="{{ site.cv_pdf | prepend: 'assets/pdf/Kilichbek_Haydarov_CV.pdf' | relative_url}}" target="_blank" ><i class="fas fa-file-pdf"></i></a>
+
