@@ -2,7 +2,7 @@
 layout: project
 permalink: /hypercgan/
 title: 	Adversarial Text to Continuous Image Generation
-description: Materials for courses you taught. Replace this text with your description.
+description: "HyperCGAN: Adversarial Text to Continuous Image Generation"
 nav: false
 nav_order: 5
 ---
