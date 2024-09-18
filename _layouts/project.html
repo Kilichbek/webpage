@@ -118,7 +118,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="#"
+                <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Haydarov_Adversarial_Text_to_Continuous_Image_Generation_CVPR_2024_paper.pdf"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -126,6 +126,7 @@
                   <span>Paper</span>
                 </a>
               </span>
+              <!-- PDF 
               <span class="link-block">
                 <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
@@ -135,7 +136,8 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
+              PDF Link. -->
+              <!-- Video Link. 
               <span class="link-block">
                 <a href="#"
                    class="external-link button is-normal is-rounded is-dark">
@@ -145,6 +147,7 @@
                   <span>Video</span>
                 </a>
               </span>
+              -->
               <!-- Code Link. -->
               <span class="link-block">
                 <a href="#"
@@ -195,35 +198,112 @@
     </div>
     <!--/ Abstract. -->
 
-    <!-- Paper video. -->
+    <!-- Paper video.
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
-        <!-- 
+        
         <div class="publication-video">
           <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        -->
       </div>
     </div>
-    <!--/ Paper video. -->
+     -->
+  </div>
+</section>
+
+<section class="hero">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h1>Architecture</h1>
+      <img src="../assets/static/images/hypercgan/architecture_2.png"
+           alt="HyperCGAN architecture image."
+           class="teaser-image"/>
+        
+      <p class="has-text-centered">
+        <strong>The architecture of the proposed HyperCGAN:</strong> Linear layers are used as hypernetworks. Overall, given text embeddings and
+        noise vector, hypernetworks generate parameters for modulating weights of INR-based decoder.
+      </p>
+    </div>
   </div>
 </section>
 
 
+<section class="hero">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h1>Qualitative Results</h1>
+      <img src="../assets/static/images/hypercgan/sota_qual.png"
+           alt="Qualitative Results"
+           class="teaser-image"/>
+        
+      <p class="has-text-centered">
+        Qualitative results on three datasets: MS-COCO 256<sup>2</sup>, CUB 256<sup>2</sup>, and ArtEmis 256<sup>2</sup>.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h1>Sensitivity to Words</h1>
+      <img src="../assets/static/images/hypercgan/color.png"
+           alt="Qualitative Results"
+           class="teaser-image"/>
+        
+      <p class="has-text-centered">
+        Here, the input noise z is kept fixed while varying color names in the prompt ”a small {color}, 
+        bird with white and dark gray wingbars and white breast and long tail”, aiming to assess the model’s sensitivity to word-level modulation.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h1>Continous Properties</h1>
+      <img src="../assets/static/images/hypercgan/continous_qual.png"
+           alt="Qualitative Results"
+           class="teaser-image"/>
+        
+      <p class="has-text-centered">
+        the capability of our models in terms of continuous image synthesis: extrapolation and superresolution.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="hero">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <h1>Attention Maps</h1>
+      <img src="../assets/static/images/hypercgan/attn_map.png"
+           alt="Qualitative Results"
+           class="teaser-image"/>
+        
+      <p class="has-text-centered">
+        Attention maps per modulating word-based weights.
+      </p>
+    </div>
+  </div>
+</section>
 
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
-    <!-- 
-    <pre><code>@article{park2021nerfies,
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
-}</code></pre> -->
+
+    <pre><code>@InProceedings{Haydarov_2024_CVPR,
+    author    = {Haydarov, Kilichbek and Muhamed, Aashiq and Shen, Xiaoqian and Lazarevic, Jovana and Skorokhodov, Ivan and Galappaththige, Chamuditha Jayanga and Elhoseiny, Mohamed},
+    title     = {Adversarial Text to Continuous Image Generation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {6316-6326}
+}</code></pre>
   </div>
 </section>
 
