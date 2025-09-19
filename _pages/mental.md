@@ -1,7 +1,7 @@
 ---
-layout: project
+layout: mental
 permalink: /mental/
-title: 	Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions
+title: 	"Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions"
 description: "Emotion-Guided Generative Interventions"
 nav: false
 nav_order: 5
