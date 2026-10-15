@@ -1,0 +1,208 @@
+# CV page (/cv/) in RenderCV format, based on assets/pdf/Kilichbek_Haydarov_CV.pdf.
+# Publications mirror _bibliography/papers.bib; keep both in sync when adding papers.
+cv:
+  name: Kilichbek Haydarov
+  label: PhD Student in Computer Science, KAUST
+  email: kilichbek.haydarov@gmail.com
+  location: Thuwal, Saudi Arabia
+  website: https://kilichbek.github.io/webpage/
+  summary: "Research interests: multimodal learning, affective vision and language, generative models, and neuroscience + AI."
+
+  sections:
+    Education:
+      - institution: King Abdullah University of Science and Technology (KAUST)
+        location: Thuwal, Saudi Arabia
+        url: https://www.kaust.edu.sa/
+        area: Computer Science
+        studyType: PhD
+        start_date: 2022-01
+        highlights:
+          - "Supervisor: Prof. Mohamed Elhoseiny"
+          - "Member of the Vision-CAIR group and KAUST NeuroAI"
+
+      - institution: King Abdullah University of Science and Technology (KAUST)
+        location: Thuwal, Saudi Arabia
+        url: https://www.kaust.edu.sa/
+        area: Computer Science
+        studyType: MS
+        start_date: 2020-09
+        end_date: 2021-12
+        highlights:
+          - "Thesis: “Towards Affective Vision and Language”"
+          - "Committee: Mohamed Elhoseiny (advisor), Peter Wonka, Dominik L. Michels"
+
+      - institution: Sejong University
+        location: Seoul, South Korea
+        area: Computer Science and Engineering
+        studyType: BS
+        start_date: 2016-03
+        end_date: 2020-02
+
+    Experience:
+      - company: KAUST Academy
+        position: Teaching Instructor
+        location: Thuwal, Saudi Arabia
+        start_date: 2025-07
+        end_date: 2025-08
+        highlights:
+          - "STEPs Program: Introduction to Python"
+
+      - company: King Abdullah University of Science and Technology (KAUST)
+        position: Teaching Assistant
+        location: Thuwal, Saudi Arabia
+        start_date: 2023-01
+        end_date: 2024-12
+        summary: Spring 2023, Spring 2024, Fall 2024
+        highlights:
+          - CS283 Deep Generative Models
+          - CS326 Low-Resource Deep Learning
+
+      - company: Intelligent Media Lab
+        position: Research Intern (Part-Time)
+        location: Seoul, South Korea
+        start_date: 2019-07
+        end_date: 2020-02
+        highlights:
+          - "Anomaly Detection: studied anomalous behaviors in videos."
+          - "Energy Forecasting: assisted in building an energy forecasting pipeline for residential areas."
+
+      - company: Sejong University
+        position: Teaching Assistant
+        location: Seoul, South Korea
+        start_date: 2019-09
+        end_date: 2019-12
+        highlights:
+          - Data Structures and Algorithms
+
+    Publications:
+      - title: "A Shared Valence Axis Across Modern LLMs and Human EEG: The Saturation Regularity"
+        publisher: arXiv preprint arXiv:2606.00129
+        releaseDate: 2026
+        url: https://arxiv.org/abs/2606.00129
+        summary: Y. A. Radwan, X. Liu, **K. Haydarov**, Y. Fu, M. Elhoseiny
+
+      - title: "Towards AI-Assisted Psychotherapy: Emotion-Guided Generative Interventions"
+        publisher: EMNLP 2025
+        releaseDate: 2025
+        url: https://aclanthology.org/2025.emnlp-main.1664/
+        summary: "**K. Haydarov**, Y. Mohamed, E. Goldenhersch, P. O'Callaghan, L.-J. Li, M. Elhoseiny"
+
+      - title: "No Culture Left Behind: ArtELingo-28, a Benchmark of WikiArt with Captions in 28 Languages"
+        publisher: EMNLP 2024
+        releaseDate: 2024
+        url: https://aclanthology.org/2024.emnlp-main.1165/
+        summary: Y. Mohamed, R. Li, I. S. Ahmad, **K. Haydarov**, P. Torr, K. Church, M. Elhoseiny
+
+      - title: Adversarial Text to Continuous Image Generation
+        publisher: CVPR 2024
+        releaseDate: 2024
+        url: https://openaccess.thecvf.com/content/CVPR2024/html/Haydarov_Adversarial_Text_to_Continuous_Image_Generation_CVPR_2024_paper.html
+        summary: "**K. Haydarov**, A. Muhamed, X. Shen, J. Lazarevic, I. Skorokhodov, C. J. Galappaththige, M. Elhoseiny"
+
+      - title: "Affective Visual Dialog: A Large-Scale Benchmark for Emotional Reasoning Based on Visually Grounded Conversations"
+        publisher: ECCV 2024
+        releaseDate: 2024
+        url: https://doi.org/10.1007/978-3-031-73226-3_2
+        summary: "**K. Haydarov**, X. Shen, A. Madasu, M. Salem, L.-J. Li, G. Elsayed, M. Elhoseiny"
+
+      - title: "ChatGPT Asks, BLIP-2 Answers: Automatic Questioning Towards Enriched Visual Descriptions"
+        publisher: Transactions on Machine Learning Research (TMLR)
+        releaseDate: 2024
+        url: https://openreview.net/forum?id=1LoVwFkZNo
+        summary: D. Zhu, J. Chen, **K. Haydarov**, X. Shen, W. Zhang, M. Elhoseiny
+
+      - title: "Video ChatCaptioner: Towards Enriched Spatiotemporal Descriptions"
+        publisher: arXiv preprint arXiv:2304.04227
+        releaseDate: 2023
+        url: https://arxiv.org/abs/2304.04227
+        summary: J. Chen, D. Zhu, **K. Haydarov**, X. Li, M. Elhoseiny
+
+      - title: "It is Okay to Not Be Okay: Overcoming Emotional Bias in Affective Image Captioning by Contrastive Data Collection"
+        publisher: CVPR 2022
+        releaseDate: 2022
+        url: https://openaccess.thecvf.com/content/CVPR2022/html/Mohamed_It_Is_Okay_To_Not_Be_Okay_Overcoming_Emotional_Bias_CVPR_2022_paper.html
+        summary: Y. Mohamed, F. F. Khan, **K. Haydarov**, M. Elhoseiny
+
+      - title: "ArtEmis: Affective Language for Visual Art"
+        publisher: CVPR 2021
+        releaseDate: 2021
+        url: https://openaccess.thecvf.com/content/CVPR2021/html/Achlioptas_ArtEmis_Affective_Language_for_Visual_Art_CVPR_2021_paper.html
+        summary: P. Achlioptas, M. Ovsjanikov, **K. Haydarov**, M. Elhoseiny, L. J. Guibas
+
+      - title: One-Shot Learning for Surveillance Anomaly Recognition using Siamese 3D CNN
+        publisher: IJCNN 2020
+        releaseDate: 2020
+        url: https://doi.org/10.1109/IJCNN48605.2020.9207595
+        summary: A. Ullah, K. Muhammad, **K. Haydarov**, I. Ul Haq, M. Lee, S. W. Baik
+
+      - title: Deep Learning Assisted Buildings Energy Consumption Profiling Using Smart Meter Data
+        publisher: Sensors 20(3), 2020
+        releaseDate: 2020
+        url: https://doi.org/10.3390/s20030873
+        summary: A. Ullah, **K. Haydarov**, I. Ul Haq, K. Muhammad, S. Rho, M. Lee, S. W. Baik
+
+    Services:
+      - bullet: "**Workshop co-organizer:** 5th Workshop on Closing the Loop between Vision and Language (CLVL), ICCV 2023, Paris, France"
+      - bullet: "**Reviewer:** ICCV 2023, CVPR 2023, NeurIPS 2025"
+      - bullet: "**Co-organizer:** SAAI25 Factory, Hackathon on Art and AI for Saudi high-school students, KAUST, April 2025"
+      - bullet: "**Tutorial:** using text-to-image generation models, SAAI21 Factory, Hackathon on Art and AI, KAUST, June 2021"
+
+    Honors and Awards:
+      - title: KAUST Dean's Award
+        awarder: KAUST
+        date: 2025-05
+        summary: For academic achievements within the CS department.
+
+      - title: 1st Prize, 2nd SAAI Factory Hackathon (Art + AI)
+        awarder: SAAI Factory
+        date: 2023-07
+        summary: Our Art + AI project received the top prize.
+
+      - title: Top 15, Global AI Summit AI Artathon
+        awarder: Global AI Summit, Riyadh
+        date: 2022-01
+        summary: Our work was showcased at the Global AI Summit and Dubai Expo.
+
+      - title: NeurIPS Workshop on ML for Creativity and Design
+        awarder: NeurIPS 2021
+        date: 2021-12
+        summary: Our artworks on “AI constructing emotional experience from the text” were showcased.
+
+      - title: KAUST Fellowship
+        awarder: KAUST
+        date: 2020-08
+        summary: Fully funded fellowship for the duration of graduate studies.
+
+      - title: 2nd Runner-up, SW & AI Hackathon
+        awarder: Sejong University
+        date: 2019-12
+        summary: Our team built a chatbot that assists students on the university campus.
+
+      - title: 3rd Runner-up, SW Coding Competition
+        awarder: Sejong University
+        date: 2019-11
+
+      - title: 1st Runner-up, SW & AI Hackathon
+        awarder: Sejong University
+        date: 2019-06
+        summary: Our team built a recommender system that helps students choose courses.
+
+      - title: National Program for Excellence in Software Scholarship
+        awarder: Seoul, South Korea
+        date: 2019-02
+        summary: 80% tuition fee waiver based on excellence in the CS program.
+
+      - title: Special Scholarship
+        awarder: Sejong University
+        date: 2017-09
+        summary: 40% tuition fee waiver for university achievement.
+
+      - title: Honours Scholarship (×4)
+        awarder: Sejong University
+        date: 2016
+        summary: 60–80% tuition fee waiver for top-3 academic performance in the CS department (2016–2019).
+
+      - title: Foreign Student Scholarship (×5)
+        awarder: Sejong University
+        date: 2016
+        summary: 60–80% tuition fee waiver based on academic performance (2016–2019).
