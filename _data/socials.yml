@@ -1,0 +1,10 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: kilichbek.haydarov[at]kaust.edu.sa # your email address
+scholar_userid: IW4UWrMAAAAJ # your Google Scholar ID
+github_username: Kilichbek # your GitHub user name
+linkedin_username: kilichbek-haydarov # your LinkedIn user name
+x_username: kilich_bek_ # your X (formerly Twitter) handle
+cv_pdf: /assets/pdf/Kilichbek_Haydarov_CV.pdf # path to your CV PDF file
+# rss_icon: true # uncomment this line to show the RSS icon

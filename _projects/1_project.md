@@ -15,7 +15,7 @@ Presented in <b>NeurIPS Workshop on ML for Creativity and Design 2021</b>.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/red_cape_digital_art_x4_auto_x2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/red_cape_digital_art_x4_auto_x2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -23,7 +23,7 @@ Presented in <b>NeurIPS Workshop on ML for Creativity and Design 2021</b>.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/rock_digital_art_x4_auto_x2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/rock_digital_art_x4_auto_x2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -31,7 +31,7 @@ Presented in <b>NeurIPS Workshop on ML for Creativity and Design 2021</b>.
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/winter_digital_art_x4_auto_x2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/winter_digital_art_x4_auto_x2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
