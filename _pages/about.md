@@ -27,4 +27,4 @@ Apart from research, I am also passionate about AI art, Chess.
 
 <b>Previously:</b> I received my Bachelor's Degree in Computer Science and Engineering from Sejong University (South Korea), Master's Degree in Computer Science from KAUST (Saudi Arabia).
 
-<b>Research Interests:</b> Affective Vision and Language, Generative Modelling, NeuroAI
+<b>Research Interests:</b> Affective Vision and Language, Generative Modelling, Neuroscience + AI
