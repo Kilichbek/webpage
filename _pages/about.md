@@ -21,7 +21,7 @@ latest_posts:
   enabled: false
 ---
 
-Hi. I am currently pursuing my Ph.D in Computer Science, with a research focus on Vision and Language, and Generative Modelling, in Visual Computing Center (VCC) at KAUST. I am a member of [Vision-CAIR](https://cemse.kaust.edu.sa/vision-cair) Research Group led by [Mohamed Elhoseiny](https://www.mohamed-elhoseiny.com/), and of [KAUST NeuroAI](https://cemse.kaust.edu.sa/research/resources/kaust-neuroai), an interdisciplinary research community that combines neuroscience, AI, statistical modeling, and signal processing to decode and use brain signals in naturalistic settings.
+Hi. I am currently pursuing my Ph.D in Computer Science, with a research focus on Vision and Language, and Generative Modelling, in Visual Computing Center (VCC) at KAUST. I am a member of [Vision-CAIR](https://cemse.kaust.edu.sa/vision-cair) Research Group led by [Prof. Mohamed Elhoseiny](https://www.mohamed-elhoseiny.com/), and of [KAUST NeuroAI](https://cemse.kaust.edu.sa/research/resources/kaust-neuroai), an interdisciplinary research community that combines neuroscience, AI, statistical modeling, and signal processing to decode and use brain signals in naturalistic settings.
 
 Apart from research, I am also passionate about AI art, Chess.
 
