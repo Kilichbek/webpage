@@ -1,0 +1,35 @@
+/*******************************************************************************
+ * Site customizations on top of al-folio core styles.
+ * Loaded last from assets/css/main.scss. The serif font itself is loaded via
+ * third_party_libraries.google_fonts in _config.yml.
+ ******************************************************************************/
+
+// Theme color: teal (dark mode uses a lighter tint so links stay readable).
+:root {
+  --global-theme-color: #0f766e;
+  --global-hover-color: #0f766e;
+}
+
+html[data-theme="dark"] {
+  --global-theme-color: #2dd4bf;
+  --global-hover-color: #2dd4bf;
+  // White text is unreadable on the light teal, so use the page background instead.
+  --global-hover-text-color: var(--global-bg-color);
+}
+
+// Venue badges (CVPR, EMNLP, ...): core hardcodes white link text.
+.publications ol.bibliography li .abbr abbr a {
+  color: var(--global-card-bg-color);
+}
+
+// Serif body text. Core uses Roboto at weight 300; serifs have no light weight,
+// so use 400 and make <strong> semibold so bold text still stands out.
+body {
+  font-family: "STIX Two Text", "Times New Roman", Times, serif;
+  font-weight: 400;
+}
+
+b,
+strong {
+  font-weight: 600;
+}

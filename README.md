@@ -17,6 +17,7 @@ al-folio v1.x is a thin Jekyll starter: layouts, includes, styles and feature JS
 | HyperCGAN / Mental project pages  | `_pages/hypercgan.md`, `_pages/mental.md`                |
 | Their standalone (Bulma) layouts  | `_layouts/project.html`, `_layouts/mental.html`, `assets/static/` |
 | CV PDF                            | `assets/pdf/Kilichbek_Haydarov_CV.pdf`                   |
+| Theme color (teal), serif font    | `_sass/_custom.scss`; font URL under `third_party_libraries.google_fonts` in `_config.yml` |
 
 ## Local preview
 
@@ -35,4 +36,5 @@ Pushing to `master` runs `.github/workflows/deploy.yml`, which builds the site a
 
 1. Read the release notes in `docs/releases/` upstream and update the `al_*` gem pins in `Gemfile` (and `plugins:` in `_config.yml` if a gem is added or removed — the two lists must agree).
 2. `bundle update` then `bundle exec al-folio upgrade audit`.
+   `assets/css/main.scss` is a local copy of the core gem's file with `@use "custom";` appended. If `bundle exec al-folio upgrade overrides audit` marks it stale, re-copy the gem's version, keep that last line, then run `al-folio upgrade overrides accept assets/css/main.scss`.
 3. Build locally and check the home, projects, publications and the two project pages.
