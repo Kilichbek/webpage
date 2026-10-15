@@ -1,9 +1,22 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Publication venue badges: key = `abbr` field in _bibliography/papers.bib
+# url makes the badge a link; add `color: "#hex"` to give a venue its own badge color
+"CVPR":
+  url: https://cvpr.thecvf.com/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"ECCV":
+  url: https://eccv.ecva.net/
 
-"Vision":
-  color: "#009f36"
+"EMNLP":
+  url: https://aclanthology.org/venues/emnlp/
+
+"TMLR":
+  url: https://jmlr.org/tmlr/
+
+"IJCNN":
+  url: https://www.ijcnn.org/
+
+"Sensors":
+  url: https://www.mdpi.com/journal/sensors
+
+"arXiv":
+  url: https://arxiv.org/
